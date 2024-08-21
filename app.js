@@ -8,7 +8,7 @@ function loadPosts(){
 function displayPosts(posts){
     const container = document.getElementById('container')
     for(const post of posts){
-        console.log(post)
+        // console.log(post)
         const div = document.createElement('div')
         div.classList.add('post')
         div.innerHTML = `
